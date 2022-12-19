@@ -27,7 +27,7 @@ Now, we can simply use one `import` statement to import all these services.
 import { AppService, AuthService, AzureNotificationService } from './@services';
 ```
 
-\!\[feature X\]\(images/feature-x.png\)
+\!\[feature X\]\(https://github.com/ultrasonicsoft/smart-import-vs-code-extension/blob/main/src/images/smart-import-demo.gif?raw=true\)
 
 > Smart Import: This extension allow you to select a directory in Explorer and create an `index.ts` file for all `.ts` files (excluding `.spec.ts` files). Every time you add/remove files from a directory, just re-run the extension and it will update the entries in `index.ts` file.
 
