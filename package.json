@@ -2,7 +2,7 @@
   "name": "smart-imports",
   "displayName": "Smart Imports",
   "description": "Auto generate index.ts file to shorten imports in any TypeScript applications e.g. Angular, Node.js etc.",
-  "icon": "https://github.com/ultrasonicsoft/smart-import-vs-code-extension/blob/main/src/images/icon-144.png?raw=true",
+  "icon": "images/icon.png",
   "author": {
     "email": "balramchavan@gmail.com",
     "name": "Balram Chavan",
@@ -10,7 +10,7 @@
   },
   "publisher": "balramchavan",
   "repository": {
-    "url": ""
+    "url": "https://github.com/ultrasonicsoft/smart-import-vs-code-extension"
   },
   "version": "1.0.1",
   "engines": {
@@ -28,7 +28,8 @@
     "Vue",
     "import",
     "Refactoring",
-    "Clean Code"
+    "Clean Code",
+    "export"
   ],
   "activationEvents": [
     "onCommand:smart-imports.helloWorld"
