@@ -1,8 +1,16 @@
 {
   "name": "smart-imports",
   "displayName": "smart-imports",
-  "description": "Auto generate index.ts file to export all types to smartly organising imports through out application",
-  "version": "0.0.1",
+  "description": "Auto generate index.ts file to export all types to smartly organising imports through out application for Angular etc.",
+  "author": {
+    "email": "balramchavan@gmail.com",
+    "name": "Balram Chavan",
+    "url": "https://balramchavan.com"
+  },
+  "repository": {
+    "url": ""
+  },
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -25,9 +33,7 @@
         {
           "when": "explorerResourceIsFolder",
           "command": "smart-imports.helloWorld",
-          "alt": "markdown.showPreviewToSide",
           "title": "Smart Import: Create index file"
-          
         }
       ]
     }
